@@ -20,6 +20,38 @@ body {
 	box-shadow: 10px 10px grey;
 }
 
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display: block;
+	font-style: bold;
+	color: white;
+	text-align: centre;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:link{
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	background-color: #111;
+	text-decoration: none;
+	color: white;
+}
+
 italic {
 	font-style: italic;
 	font-style: inline;
@@ -34,6 +66,7 @@ italic {
 	margin-bottom: 16px;
     width: 50%;
 	padding-right:86px;
+	padding-left:86px;
 	padding-top: 16px;
 	text-indent:0;
 	padding-bottom: 16px;
